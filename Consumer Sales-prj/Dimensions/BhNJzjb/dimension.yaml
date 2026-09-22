@@ -1,0 +1,22 @@
+Id: BhNJzjb
+Name: 
+Properties:
+  qDim:
+    coloring:
+      changeHash: "0.2352086100040287"
+    qFieldDefs:
+    - Sales Price
+    qFieldLabels:
+    - Sales Price
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Sales Price
+  qInfo:
+    qId: BhNJzjb
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Sales Price
+QOpsVersion: 3.0.20
+...

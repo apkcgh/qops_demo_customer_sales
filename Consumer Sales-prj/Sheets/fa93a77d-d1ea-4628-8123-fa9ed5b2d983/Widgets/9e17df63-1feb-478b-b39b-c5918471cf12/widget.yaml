@@ -1,0 +1,242 @@
+Children: []
+Column: 9
+Height: 4
+Id: 9e17df63-1feb-478b-b39b-c5918471cf12
+Properties:
+  color:
+    auto: false
+    colorExpression: Count({$<Cust_Lost={"1"}>} distinct Customer)
+    dimensionScheme: "12"
+    expressionIsColor: false
+    expressionLabel: Customers Lost
+    measureScheme: dg
+    mode: byExpression
+    paletteColor:
+      color: '#4477aa'
+      index: -1
+    persistent: false
+    reverseScheme: false
+    singleColor: '#4477aa'
+    useDimColVal: false
+    useMeasureGradient: false
+  compressionResolution: 5
+  dataPoint:
+    bubbleSizes: 10
+    rangeBubbleSizes:
+    - 2
+    - 8
+  footnote: ""
+  gridLine:
+    auto: false
+    spacing: 3
+  labels:
+    mode: 1
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  qHyperCubeDef:
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: ESZSE
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+        title: Product Sub Group
+      qLibraryId: e1432d2b-be66-4e9f-a134-65327550e346
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 1000
+      qLeft: 0
+      qTop: 0
+      qWidth: 4
+    qInterColumnSortOrder:
+    - 2
+    - 1
+    - 0
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - id: colorByExpression
+        label: Customers Lost
+        qAttribute: true
+        qExpression: Count({$<Cust_Lost={"1"}>} distinct Customer)
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: HRJWCc
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qnDec: 10
+          qThou: " "
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: JWjf
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: YDAPjth
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: KJuWm
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: 9e17df63-1feb-478b-b39b-c5918471cf12
+    qType: scatterplot
+  qMetaDef: {}
+  refLine:
+    refLinesX: []
+    refLinesY: []
+  showTitles: true
+  subtitle: ""
+  title: TY vs LY Sales
+  visualization: scatterplot
+  xAxis:
+    autoMinMax: false
+    dock: bottom
+    label: auto
+    max: 1
+    min: 0
+    minMax: min
+    show: all
+    spacing: 0.5
+  yAxis:
+    autoMinMax: false
+    dock: left
+    label: auto
+    max: 10
+    min: 0
+    minMax: min
+    show: all
+    spacing: 0.5
+QOpsVersion: 3.0.20
+Row: 4
+Title: TY vs LY Sales
+Type: scatterplot
+Width: 7
+...

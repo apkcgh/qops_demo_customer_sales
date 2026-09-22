@@ -1,0 +1,16 @@
+Definition: "0.00"
+Description: 
+IncludeInBookmark: false
+IsScript: false
+Name: Cost2
+NumberPresentation:
+  qDec: .
+  qFmt: '#,##0.00'
+  qnDec: 2
+  qThou: ','
+  qType: F
+  qUseThou: 0
+QOpsVersion: 3.0.20
+Tags: 
+Type: variable
+...

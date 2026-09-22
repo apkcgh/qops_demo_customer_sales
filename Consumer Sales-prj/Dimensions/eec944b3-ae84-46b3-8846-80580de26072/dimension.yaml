@@ -1,0 +1,20 @@
+Id: eec944b3-ae84-46b3-8846-80580de26072
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Product Type
+    qFieldLabels:
+    - Product Type
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Product Type
+  qInfo:
+    qId: eec944b3-ae84-46b3-8846-80580de26072
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Product Type
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,188 @@
+Children: []
+Column: 23
+Height: 7
+Id: ejEQJB
+Properties:
+  barGrouping:
+    grouping: grouped
+    showAs: percentage
+  color:
+    altLabel: jywRbn
+    auto: false
+    byMeasureDef:
+      key: jywRbn
+      label: jywRbn
+      type: libraryItem
+    dimensionId: ""
+    dimensionScheme: "12"
+    measureScheme: dg
+    mode: primary
+    paletteColor:
+      color: '#006580'
+      index: 6
+    persistent: false
+    reverseScheme: true
+    singleColor: '#4477aa'
+    useDimColVal: false
+    useMeasureGradient: false
+  cutAxis: true
+  dataPoint:
+    showLabels: true
+  dimensionAxis:
+    dock: near
+    label: auto
+    show: labels
+  footnote: ""
+  gridLine:
+    auto: true
+    spacing: 3
+  legend:
+    dock: auto
+    show: true
+    showTitle: true
+  measureAxis:
+    autoMinMax: true
+    dock: near
+    label: horizontal
+    max: 10
+    min: 0
+    minMax: min
+    show: labels
+    spacing: 0.75
+  orientation: horizontal
+  qHyperCubeDef:
+    qAlwaysFullyExpanded: true
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: HBLVQ
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+          qSortByNumeric: 1
+      qLibraryId: e1432d2b-be66-4e9f-a134-65327550e346
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 500
+      qLeft: 0
+      qTop: 0
+      qWidth: 17
+    qInterColumnSortOrder:
+    - 0
+    - 1
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: LmPkqP
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: jywRbn
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: 10000
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: ejEQJB
+    qType: barchart
+  qMetaDef: {}
+  refLine:
+    refLines: []
+  showTitles: true
+  subtitle: ""
+  title: Sales by Product Group
+  visualization: barchart
+QOpsVersion: 3.0.20
+Row: 8
+Title: Sales by Product Group
+Type: barchart
+Width: 13
+...

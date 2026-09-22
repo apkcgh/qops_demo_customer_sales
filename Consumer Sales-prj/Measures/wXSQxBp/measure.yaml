@@ -1,0 +1,23 @@
+Id: wXSQxBp
+Name: 
+Properties:
+  qInfo:
+    qId: wXSQxBp
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum({$<[Region Name]={"Southern"}>}   [Sales Quantity]*[Sales Price])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Southern Revenue
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Southern Revenue
+QOpsVersion: 3.0.20
+...

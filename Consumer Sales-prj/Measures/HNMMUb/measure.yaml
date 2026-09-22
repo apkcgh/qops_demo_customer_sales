@@ -1,0 +1,23 @@
+Id: HNMMUb
+Name: 
+Properties:
+  qInfo:
+    qId: HNMMUb
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: if((sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])>-0.45, (sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount]), 0 )
+    qExpressions: []
+    qGrouping: N
+    qLabel: Sales Variance
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Sales Variance
+QOpsVersion: 3.0.20
+...

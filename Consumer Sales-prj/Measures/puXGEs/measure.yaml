@@ -1,0 +1,23 @@
+Id: puXGEs
+Name: 
+Properties:
+  qInfo:
+    qId: puXGEs
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum ([Budget Amount])/Sum ([Actual Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Sales vs Budget %
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Sales vs Budget %
+QOpsVersion: 3.0.20
+...

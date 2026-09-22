@@ -1,0 +1,20 @@
+Id: c602b46b-ab46-4691-8871-00ecae6d6043
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Product Type Desc
+    qFieldLabels:
+    - Product Type Desc
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Product Type Desc
+  qInfo:
+    qId: c602b46b-ab46-4691-8871-00ecae6d6043
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Product Type Desc
+QOpsVersion: 3.0.20
+...

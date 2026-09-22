@@ -1,0 +1,12 @@
+Id: 42e37f97-24f2-49d5-984b-9aee5bccb3db
+Properties:
+  Info:
+    Id: 42e37f97-24f2-49d5-984b-9aee5bccb3db
+    Session: 
+    Type: snapshot
+  MetaDef:
+    Session: 
+  Session: 
+QOpsVersion: 3.0.20
+ShouldProcess: true
+...

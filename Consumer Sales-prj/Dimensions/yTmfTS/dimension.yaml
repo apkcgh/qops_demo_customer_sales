@@ -1,0 +1,21 @@
+Id: yTmfTS
+Name: 
+Properties:
+  isEditMode: true
+  qDim:
+    qFieldDefs:
+    - state_name
+    qFieldLabels:
+    - state name
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: state name
+  qInfo:
+    qId: yTmfTS
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: state name
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,26 @@
+QOpsVersion: 3.0.20
+Sheet:
+  Approved: false
+  Description: ""
+  Id: xjXHDyD
+  Owner:
+    userDirectory: 
+    userId: 6a44ac0aae56b1960d12091f
+  Published: false
+  Title: Sales Rep Performance
+SheetProperties:
+  Id: xjXHDyD
+  Properties:
+    columns: 24
+    qInfo:
+      qId: xjXHDyD
+      qType: sheet
+    qMetaDef:
+      description: ""
+      title: Sales Rep Performance
+    rank: -0.859375
+    rows: 12
+    thumbnail:
+      qStaticContentUrlDef:
+        qUrl: /api/v1/apps/_self/media/files/CGS_Sales_Rep_Performance.png
+...

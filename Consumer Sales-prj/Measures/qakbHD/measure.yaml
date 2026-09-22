@@ -1,0 +1,23 @@
+Id: qakbHD
+Name: 
+Properties:
+  qInfo:
+    qId: qakbHD
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum({$<[Region Name]={"Central"}>} [Sales Quantity]*[Sales Price])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Central Revenue
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Central Revenue
+QOpsVersion: 3.0.20
+...

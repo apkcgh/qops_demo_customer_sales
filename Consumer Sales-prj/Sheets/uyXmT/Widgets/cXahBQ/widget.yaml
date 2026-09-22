@@ -1,0 +1,179 @@
+Children: []
+Column: 7
+Height: 6
+Id: cXahBQ
+Properties:
+  color:
+    altLabel: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+    auto: false
+    byDimDef:
+      key: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+      label: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+      type: libraryItem
+    colorExpression: Colormix1((sum([Sales Margin Amount])-$(=min(aggr( sum([Sales Margin Amount]), [Product Group Desc]))))/$(=(max(aggr( sum([Sales Margin Amount]), [Product Group Desc]))-min(aggr( sum([Sales Margin Amount]), [Product Group Desc])))),white(),RGB(156,221,183))
+    dimensionScheme: "12"
+    expressionIsColor: true
+    measureScheme: sg
+    mode: byExpression
+    paletteColor:
+      color: '#79d69f'
+      index: 11
+    persistent: false
+    reverseScheme: false
+    singleColor: '#4477aa'
+    useDimColVal: false
+    useMeasureGradient: false
+  dataPoint:
+    auto: false
+    labelMode: share
+  dimensionTitle: false
+  donut:
+    showAsDonut: true
+  footnote: ""
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  qHyperCubeDef:
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: zsZJn
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+        title: Product Group
+      qLibraryId: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "15"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_COUNTED
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 500
+      qLeft: 0
+      qTop: 0
+      qWidth: 10
+    qInterColumnSortOrder:
+    - 1
+    - 0
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - id: colorByExpression
+        qAttribute: true
+        qExpression: Colormix1((sum([Sales Margin Amount])-$(=min(aggr( sum([Sales Margin Amount]), [Product Group Desc]))))/$(=(max(aggr( sum([Sales Margin Amount]), [Product Group Desc]))-min(aggr( sum([Sales Margin Amount]), [Product Group Desc])))),white(),RGB(156,221,183))
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: KqmUpp
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qnDec: 10
+          qThou: " "
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: NCRyd
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qSuppressZero: true
+    qTitle: {}
+  qInfo:
+    qId: cXahBQ
+    qType: piechart
+  qMetaDef: {}
+  showTitles: true
+  subtitle: By Product Sub Group
+  title: ""
+  visualization: piechart
+QOpsVersion: 3.0.20
+Row: 0
+Title: ""
+Type: piechart
+Width: 6
+...

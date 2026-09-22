@@ -1,0 +1,182 @@
+Children: []
+Id: 3e89a5b1-03a5-4293-96eb-0788a607ac89
+Name: 
+Properties:
+  color:
+    auto: false
+    dimensionScheme: "12"
+    measureScheme: sg
+    mode: primary
+    paletteColor:
+      color: '#79d69f'
+      index: 11
+    persistent: false
+    reverseScheme: false
+    singleColor: '#4477aa'
+    useDimColVal: false
+    useMeasureGradient: false
+  dataPoint:
+    show: true
+    showLabels: true
+  dimensionAxis:
+    dock: bottom
+    label: auto
+    show: labels
+  footnote: ""
+  gridLine:
+    auto: true
+    spacing: 2
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  lineType: line
+  masterVersion: 0.96
+  measureAxis:
+    autoMinMax: true
+    dock: left
+    label: horizontal
+    max: 10
+    min: 0
+    minMax: min
+    show: labels
+    spacing: 1
+  metadata: {}
+  nullMode: gap
+  qHyperCubeDef:
+    qAlwaysFullyExpanded: true
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: XJpFnmb
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+          qSortByNumeric: 1
+        title: Month
+      qLibraryId: KHvcSGE
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 500
+      qLeft: 0
+      qTop: 0
+      qWidth: 17
+    qInterColumnSortOrder:
+    - 0
+    - 1
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: Rhyqhm
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: NCRyd
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: 3e89a5b1-03a5-4293-96eb-0788a607ac89
+    qType: masterobject
+  qMetaDef:
+    tags: []
+    title: Margin by Month
+  refLine:
+    refLines: []
+  separateStacking: true
+  showTitles: true
+  stackedArea: false
+  subtitle: ""
+  title: ""
+  visualization: linechart
+QOpsVersion: 3.0.20
+...

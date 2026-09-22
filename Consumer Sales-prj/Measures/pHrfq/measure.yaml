@@ -1,0 +1,28 @@
+Id: pHrfq
+Name: 
+Properties:
+  qInfo:
+    qId: pHrfq
+    qType: measure
+  qMeasure:
+    coloring: {}
+    isCustomFormatted: false
+    qActiveExpression: 0
+    qDef: Sum([Sales Margin Amount])/Sum([Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Margin %
+    qNumFormat:
+      qDec: .
+      qFmt: 0.0%
+      qnDec: 2
+      qThou: ','
+      qType: F
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Margin %
+QOpsVersion: 3.0.20
+...

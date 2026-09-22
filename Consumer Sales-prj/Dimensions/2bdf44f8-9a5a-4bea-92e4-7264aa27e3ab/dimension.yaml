@@ -1,0 +1,20 @@
+Id: 2bdf44f8-9a5a-4bea-92e4-7264aa27e3ab
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Product Line Desc
+    qFieldLabels:
+    - Product Line
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Product Line
+  qInfo:
+    qId: 2bdf44f8-9a5a-4bea-92e4-7264aa27e3ab
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Product Line
+QOpsVersion: 3.0.20
+...

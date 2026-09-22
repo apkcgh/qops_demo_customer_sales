@@ -1,0 +1,27 @@
+QOpsVersion: 3.0.20
+Sheet:
+  Approved: false
+  Description: ""
+  Id: uyXmT
+  Owner:
+    userDirectory: 
+    userId: 6a44ac0aae56b1960d12091f
+  Published: false
+  Title: KPI Dashboard
+SheetProperties:
+  Id: uyXmT
+  Properties:
+    columns: 36
+    gridResolution: large
+    qInfo:
+      qId: uyXmT
+      qType: sheet
+    qMetaDef:
+      description: ""
+      title: KPI Dashboard
+    rank: -1
+    rows: 18
+    thumbnail:
+      qStaticContentUrlDef:
+        qUrl: /api/v1/apps/_self/media/files/CGS_Dashboard.png
+...

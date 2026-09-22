@@ -1,0 +1,20 @@
+Id: 7cd6768c-03dc-42d7-b6d0-02b6b25d38fd
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Year
+    qFieldLabels:
+    - Year
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Year
+  qInfo:
+    qId: 7cd6768c-03dc-42d7-b6d0-02b6b25d38fd
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Year
+QOpsVersion: 3.0.20
+...

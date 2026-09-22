@@ -1,0 +1,16 @@
+Definition: "=If(Count(distinct [Invoice Number]) < 500, 1,   	If(Count(distinct [Invoice Number]) < 1000, 10,   	If(Count(distinct [Invoice Number]) < 5000, 100, 1000)))"
+Description: 
+IncludeInBookmark: false
+IsScript: false
+Name: vMaxSetScale
+NumberPresentation:
+  qDec: 
+  qFmt: 
+  qnDec: 10
+  qThou: 
+  qType: U
+  qUseThou: 0
+QOpsVersion: 3.0.20
+Tags: 
+Type: variable
+...

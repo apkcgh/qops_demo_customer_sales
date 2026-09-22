@@ -1,0 +1,24 @@
+Id: qKJg
+Name: 
+Properties:
+  qInfo:
+    qId: qKJg
+    qType: measure
+  qMeasure:
+    coloring: {}
+    qActiveExpression: 0
+    qDef: (sum([YTD Sales Amount])-sum([LY YTD Sales Amount])*0.2)/sum([LY YTD Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: TY vs LY Sales
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: TY vs LY Sales
+QOpsVersion: 3.0.20
+...

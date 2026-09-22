@@ -1,0 +1,171 @@
+Children: []
+Column: 3
+Height: 12
+Id: PJTJWqx
+Properties:
+  barGrouping:
+    grouping: grouped
+    showAs: percentage
+  color:
+    altLabel: epqAX
+    auto: false
+    byMeasureDef:
+      key: epqAX
+      label: epqAX
+      type: libraryItem
+    dimensionId: ""
+    dimensionScheme: "12"
+    measureScheme: dg
+    mode: byMeasure
+    persistent: false
+    reverseScheme: true
+    singleColor: '#4477aa'
+  cutAxis: true
+  dataPoint:
+    showLabels: true
+  dimensionAxis:
+    dock: near
+    label: auto
+    show: labels
+  footnote: ""
+  gridLine:
+    auto: true
+    spacing: 2
+  hash: 0.740149548138124
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  measureAxis:
+    autoMinMax: false
+    dock: near
+    label: horizontal
+    max: 10
+    min: 0
+    minMax: min
+    show: all
+    spacing: 0.75
+  orientation: horizontal
+  qHyperCubeDef:
+    qAlwaysFullyExpanded: true
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - colorMapRef: epqAX
+        id: colorByAlternative
+        matchMeasure: 0
+        qAttribute: true
+        qLibraryId: epqAX
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: false
+        cId: fmengB
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression:
+            qv: Sum ([Budget Amount])
+          qSortByExpression: -1
+          qSortByLoadOrder: 1
+      qLibraryId: 14d98166-8e9d-46ba-974b-70fd83b29b91
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 500
+      qLeft: 0
+      qTop: 0
+      qWidth: 17
+    qInterColumnSortOrder:
+    - 0
+    - 1
+    qLayoutExclude: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: PfcPbpP
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: epqAX
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: 10000
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: PJTJWqx
+    qType: barchart
+  qMetaDef: {}
+  refLine:
+    refLines: []
+  showTitles: true
+  subtitle: ""
+  title: Sales $ by Product (sorted by budget $)
+  visualization: barchart
+QOpsVersion: 3.0.20
+Row: 0
+Title: Sales $ by Product (sorted by budget $)
+Type: barchart
+Width: 9
+...

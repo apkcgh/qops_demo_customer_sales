@@ -1,0 +1,16 @@
+Children: []
+Column: 0
+Height: 6
+Id: qdQMSbX
+Properties:
+  qExtendsId: nbAZEN
+  qInfo:
+    qId: qdQMSbX
+    qType: table
+  qMetaDef: {}
+QOpsVersion: 3.0.20
+Row: 0
+Title: Sales Reps Sales Variance
+Type: table
+Width: 6
+...

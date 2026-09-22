@@ -1,0 +1,28 @@
+Id: XkJWrD
+Name: 
+Properties:
+  qInfo:
+    qId: XkJWrD
+    qType: measure
+  qMeasure:
+    coloring: {}
+    isCustomFormatted: false
+    qActiveExpression: 0
+    qDef: If(isnull([Sales Margin Amount]),Null(),Sum([Sales Margin Amount]))
+    qExpressions: []
+    qGrouping: N
+    qLabel: Margin
+    qNumFormat:
+      qDec: .
+      qFmt: '#,##0'
+      qnDec: 2
+      qThou: ','
+      qType: F
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Margin
+QOpsVersion: 3.0.20
+...

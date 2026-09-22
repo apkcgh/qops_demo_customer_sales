@@ -1,0 +1,27 @@
+QOpsVersion: 3.0.20
+Sheet:
+  Approved: false
+  Description: ""
+  Id: AjDCJg
+  Owner:
+    userDirectory: 
+    userId: 6a44ac0aae56b1960d12091f
+  Published: false
+  Title: Budget Analysis
+SheetProperties:
+  Id: AjDCJg
+  Properties:
+    columns: 24
+    gridMode: edit
+    qInfo:
+      qId: AjDCJg
+      qType: sheet
+    qMetaDef:
+      description: ""
+      title: Budget Analysis
+    rank: -0.8515625
+    rows: 12
+    thumbnail:
+      qStaticContentUrlDef:
+        qUrl: /api/v1/apps/_self/media/files/CGS_Budget_Analysis.png
+...

@@ -1,0 +1,23 @@
+Id: FBpdkpq
+Name: 
+Properties:
+  qInfo:
+    qId: FBpdkpq
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum({$<[Region Name]={"Northeast"}>}   [Sales Quantity]*[Sales Price])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Northeast Revenue
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Northeast Revenue
+QOpsVersion: 3.0.20
+...

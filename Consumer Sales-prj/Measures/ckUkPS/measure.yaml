@@ -1,0 +1,23 @@
+Id: ckUkPS
+Name: 
+Properties:
+  qInfo:
+    qId: ckUkPS
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum({$ <[Region Name]={"Central"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Central"}> }[Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Central Margin %
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Central Margin %
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,28 @@
+Id: GpZJcD
+Name: 
+Properties:
+  qInfo:
+    qId: GpZJcD
+    qType: measure
+  qMeasure:
+    coloring: {}
+    isCustomFormatted: false
+    qActiveExpression: 0
+    qDef: If(isnull([Sales Price]),Null(),Sum([Sales Price]))
+    qExpressions: []
+    qGrouping: N
+    qLabel: Price
+    qNumFormat:
+      qDec: .
+      qFmt: $#,##0;($#,##0)
+      qnDec: 2
+      qThou: ','
+      qType: M
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Price
+QOpsVersion: 3.0.20
+...

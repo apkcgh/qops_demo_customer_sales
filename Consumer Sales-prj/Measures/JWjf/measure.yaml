@@ -1,0 +1,24 @@
+Id: JWjf
+Name: 
+Properties:
+  qInfo:
+    qId: JWjf
+    qType: measure
+  qMeasure:
+    coloring: {}
+    qActiveExpression: 0
+    qDef: Sum({$<[Year]={"2021"}>}[Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: LY Sales
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: LY Sales
+QOpsVersion: 3.0.20
+...

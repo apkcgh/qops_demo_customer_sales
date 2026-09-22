@@ -1,0 +1,20 @@
+Id: 4e407169-675a-4d03-8705-bdb2927108ef
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - YearMonth
+    qFieldLabels:
+    - YearMonth
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: YearMonth
+  qInfo:
+    qId: 4e407169-675a-4d03-8705-bdb2927108ef
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: YearMonth
+QOpsVersion: 3.0.20
+...

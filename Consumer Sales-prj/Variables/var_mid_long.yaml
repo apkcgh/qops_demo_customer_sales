@@ -1,0 +1,16 @@
+Definition: =min(longitude)+(max(longitude)-min(longitude))/2
+Description: 
+IncludeInBookmark: false
+IsScript: false
+Name: var_mid_long
+NumberPresentation:
+  qDec: 
+  qFmt: 
+  qnDec: 10
+  qThou: 
+  qType: U
+  qUseThou: 0
+QOpsVersion: 3.0.20
+Tags: 
+Type: variable
+...

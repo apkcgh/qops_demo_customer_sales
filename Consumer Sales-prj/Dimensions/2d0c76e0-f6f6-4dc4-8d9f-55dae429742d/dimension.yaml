@@ -1,0 +1,20 @@
+Id: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Product Group Desc
+    qFieldLabels:
+    - Product Group
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Product Group
+  qInfo:
+    qId: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Product Group
+QOpsVersion: 3.0.20
+...

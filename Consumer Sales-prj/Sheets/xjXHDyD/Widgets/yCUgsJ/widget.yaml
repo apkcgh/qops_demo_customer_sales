@@ -1,0 +1,16 @@
+Children: []
+Column: 6
+Height: 6
+Id: yCUgsJ
+Properties:
+  qExtendsId: NQAubZc
+  qInfo:
+    qId: yCUgsJ
+    qType: scatterplot
+  qMetaDef: {}
+QOpsVersion: 3.0.20
+Row: 0
+Title: Sales vs Margin
+Type: scatterplot
+Width: 10
+...

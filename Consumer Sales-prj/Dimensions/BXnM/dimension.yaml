@@ -1,0 +1,20 @@
+Id: BXnM
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - textBudgetPeriod
+    qFieldLabels:
+    - Budget Period
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Budget Period
+  qInfo:
+    qId: BXnM
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Budget Period
+QOpsVersion: 3.0.20
+...

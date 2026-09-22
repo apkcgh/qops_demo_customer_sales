@@ -1,0 +1,47 @@
+Children: []
+Column: 0
+Height: 0
+Id: 819e12a7-e278-4732-a23c-e7f8ec747ad4
+Properties:
+  disableNavMenu: false
+  footnote: ""
+  qDef:
+    textAlign:
+      align: left
+  qInfo:
+    qId: 819e12a7-e278-4732-a23c-e7f8ec747ad4
+    qType: listbox
+  qListObjectDef:
+    frequencyEnabled: false
+    qDef:
+      autoSort: false
+      cId: qdURndc
+      qActiveField: 0
+      qFieldDefs: []
+      qFieldLabels: []
+      qGrouping: N
+      qNumberPresentations: []
+      qSortCriterias:
+      - qExpression: {}
+        qSortByAscii: 1
+        qSortByLoadOrder: 1
+      textAlign:
+        auto: true
+    qExpressions: []
+    qFrequencyMode: N
+    qInitialDataFetch: []
+    qLibraryId: UukqE
+    qOtherTotalSpec: {}
+    qShowAlternatives: true
+  qMetaDef: {}
+  showDetails: false
+  showTitles: true
+  subtitle: ""
+  title: Sales Rep
+  visualization: listbox
+QOpsVersion: 3.0.20
+Row: 0
+Title: Sales Rep
+Type: listbox
+Width: 0
+...

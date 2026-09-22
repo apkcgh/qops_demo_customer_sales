@@ -1,0 +1,488 @@
+///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+///$tab Product
+ProductGroup:
+LOAD
+    "Product Group Desc",
+    "Product Group"
+FROM [lib://Consumer Goods (dvsts_demo)/ProductGroup.qvd]
+(qvd);
+
+ProductLine:
+LOAD
+    "Product Line Desc",
+    "Product Line"
+FROM [lib://Consumer Goods (dvsts_demo)/ProductLine.qvd]
+(qvd);
+
+ProductSubGroup:
+LOAD
+    "Product Sub Group Desc",
+    "Product Sub Group"
+FROM [lib://Consumer Goods (dvsts_demo)/ProductSubGroup.qvd]
+(qvd);
+
+ProductType:
+LOAD
+    "Product Type Desc",
+    "Product Type"
+FROM [lib://Consumer Goods (dvsts_demo)/ProductType.qvd]
+(qvd);
+
+ItemBranch:
+LOAD
+    "Item Branch 3rd Item Number",
+    "Item Branch G/L Category",
+    "Short Name",
+    "Item Branch 2nd Item Number",
+    "Item-Branch Key",
+    "Item Branch Reorder Quantity",
+    Horsepower,
+    "Item Branch Category Code 6",
+    "Item Branch Category Code 7",
+    "Item Branch Primary Supplier"
+FROM [lib://Consumer Goods (dvsts_demo)/ItemBranch.qvd]
+(qvd);
+
+ItemClass:
+LOAD
+    "Item Class Desc",
+    "Item Class"
+FROM [lib://Consumer Goods (dvsts_demo)/ItemClass.qvd]
+(qvd);
+
+ItemMaster:
+LOAD
+    "Short Name",
+    "Item Count",
+    "Product Price Group",
+    "Product Department",
+    "Product Line",
+    "Product Group",
+    "Product Type",
+    "Master Planning Family",
+    "Product Sub Group"
+FROM [lib://Consumer Goods (dvsts_demo)/ItemMaster.qvd]
+(qvd);
+
+linkBasket:
+LOAD
+    BasketItem,
+    "Order Number"
+FROM [lib://Consumer Goods (dvsts_demo)/linkBasket.qvd]
+(qvd);
+
+Basket:
+LOAD
+    BasketItem,
+    "Basket Produce Line",
+    "Basket Product Group Desc",
+    "Basket Product Line Desc",
+    "Basket Product Sub Group Desc",
+    "Basket Product Type Desc",
+    "Basket Item Desc"
+FROM [lib://Consumer Goods (dvsts_demo)/Basket.qvd]
+(qvd);
+
+BusinessFamily:
+LOAD
+    "Business Family Name",
+    "Business Family"
+FROM [lib://Consumer Goods (dvsts_demo)/BusinessFamily.qvd]
+(qvd);
+
+Channel:
+LOAD
+    "Channel Name",
+    Channel
+FROM [lib://Consumer Goods (dvsts_demo)/Channel.qvd]
+(qvd);
+
+Distribution:
+LOAD
+    "Distribution Channel Mgr Name",
+    "Distribution Channel Mgr"
+FROM [lib://Consumer Goods (dvsts_demo)/Distribution.qvd]
+(qvd);
+
+MasterPlanning:
+LOAD
+    "Master Planning Family Desc",
+    "Master Planning Family"
+FROM [lib://Consumer Goods (dvsts_demo)/MasterPlanning.qvd]
+(qvd);
+
+Zone:
+LOAD
+    "Zone Mgr Name",
+    "Zone Mgr"
+FROM [lib://Consumer Goods (dvsts_demo)/Zone.qvd]
+(qvd);
+///$tab Customer
+CustomerAddress:
+LOAD
+    "Address Number",
+    "Customer Address 1",
+    "Customer Address 2",
+    "Customer Address 3",
+    "Customer Address 4",
+    "Zip Code",
+    City,
+    County,
+    State,
+    Country
+FROM [lib://Consumer Goods (dvsts_demo)/CustomerAddress.qvd]
+(qvd);
+
+CustomerClassification:
+LOAD
+    CustKey,
+    Cust_Increasing,
+    Cust_Decreasing,
+    Cust_Steady,
+    Cust_New,
+    Cust_Lost,
+    Cust_Other,
+    "Customer Growth",
+    "Customer Growth Percent"
+FROM [lib://Consumer Goods (dvsts_demo)/CustomerClassification.qvd]
+(qvd);
+
+CustomerMapCoordinates:
+LOAD
+    State,
+    "Customer X",
+    "Customer Y"
+FROM [lib://Consumer Goods (dvsts_demo)/CustomerMapCoordinates.qvd]
+(qvd);
+
+Customers:
+LOAD
+    Division,
+    "Business Family",
+    "Customer Type",
+    Channel,
+    "Category Code 5",
+    "Zone Mgr",
+    "Category Code 7",
+    "Regional Sales Mgr",
+    "Distribution Channel Mgr",
+    "Region Code",
+    "Price Discount Cde 4",
+    "Line of Business",
+    "Sales Volume",
+    Customer,
+    "Address Number",
+    "Customer Number",
+    Consolidated,
+    "Search Type",
+    Phone,
+    "Business Unit",
+    "SIC Code",
+    "Tax Certificate"
+FROM [lib://Consumer Goods (dvsts_demo)/Customers.qvd]
+(qvd);
+
+CustomerType:
+LOAD
+    "Customer Type Name",
+    "Customer Type"
+FROM [lib://Consumer Goods (dvsts_demo)/CustomerType.qvd]
+(qvd);
+///$tab Orders
+OrderCount:
+LOAD
+    "Order Number",
+    OrderCount
+FROM [lib://Consumer Goods (dvsts_demo)/OrderCount.qvd]
+(qvd);
+
+OrderDates1:
+LOAD
+    "Order Date 2",
+    OrderYear,
+    OrderMonth,
+    OrderQuarter,
+    "Order Date Header"
+FROM [lib://Consumer Goods (dvsts_demo)/OrderDates1.qvd]
+(qvd);
+///$tab Sales
+Sales:
+LOAD
+    NoOfItem,
+    MaxNoOfItem,
+    DateKey,
+    "Item-Branch Key",
+    "Order Number"
+FROM [lib://Consumer Goods (dvsts_demo)/Sales.qvd]
+(qvd);
+
+[Salesdecile-1]:
+LOAD
+    "Sales by Customer by YearQuarter",
+    Low,
+    High
+FROM [lib://Consumer Goods (dvsts_demo)/Salesdecile-1.qvd]
+(qvd);
+
+SalesDetails:
+LOAD
+    "Address Number",
+    BudKey,
+    AggKey,
+    "Ship To",
+    "Sales Rep",
+    "Item Class",
+    CustKey,
+    "Family Class",
+    "Sales Amount Based on List Price",
+    "Line Desc 1",
+    "Invoice Number",
+    "Backlog Amount",
+    "Sales Quantity",
+    "Qty Backordered",
+    "Actual Delivery Date Temp",
+    "Last Status",
+    "Number Of Days Late",
+    "Doc Type",
+    "Order Status Primary",
+    "Order Status",
+    "Line Number",
+    "Item Number",
+    "Line Type",
+    "List Price",
+    "Sales Cost Amount",
+    "Order Margin",
+    "Open Order Cost Amount",
+    "Discount Amount",
+    "Invoice Date Temp",
+    "Company Number Detail",
+    "Payment Terms",
+    "Sales Unit Cost Price",
+    "Open Order Quantity",
+    "Unit Price",
+    "Business Unit Details",
+    "Next Status",
+    "Promised Delivery Date Temp",
+    "Sales Margin Amount",
+    "U/M",
+    "Parent Address Number",
+    "Open Order Amount",
+    "Sales Amount",
+    "BackOrder Amount",
+    "Sales Price",
+    "Address Order Number",
+    "Late Shipment",
+    "Order Type Detail",
+    Shipments,
+    DateKey,
+    "Item-Branch Key",
+    "Order Number"
+FROM [lib://Consumer Goods (dvsts_demo)/SalesDetails.qvd]
+(qvd);
+
+SalesHeader:
+LOAD
+    "Order Number",
+    "Address Number Header",
+    "Order Gross Amount",
+    "Order Type Header",
+    "Business Unit Order Header",
+    "Order Date Header",
+    "Hold Orders Code Header",
+    "Company Number Header",
+    "Stop Code Header",
+    "Zone Code Header",
+    "Hold Code Header",
+    "Ship To Address Header",
+    "Parent Address Number Header",
+    "Orderby Header",
+    "Freight Code Header"
+FROM [lib://Consumer Goods (dvsts_demo)/SalesHeader.qvd]
+(qvd);
+
+SalesRegion:
+LOAD
+    "Region Name",
+    "Region Code"
+FROM [lib://Consumer Goods (dvsts_demo)/SalesRegion.qvd]
+(qvd);
+
+SalesRep:
+LOAD
+    "Sales Rep",
+    "Sales Rep Name"
+FROM [lib://Consumer Goods (dvsts_demo)/SalesRep.qvd]
+(qvd);
+
+[Sheet1-2]:
+LOAD
+    "Sales Rep Name",
+    "Sales Rep Performance"
+FROM [lib://Consumer Goods (dvsts_demo)/Sheet1-2.qvd]
+(qvd);
+
+AggSales:
+LOAD
+    AggKey,
+    "YTD Sales Amount",
+    "LY YTD Sales Amount",
+    "TM Sales Amount",
+    "LY TM Sales Amount",
+    "LY Tot Sales Amount",
+    "YTD Sales Margin Amount",
+    "LY YTD Sales Margin Amount",
+    "TM Sales Margin Amount",
+    "LY TM Sales Margin Amount",
+    "LY Tot Sales Margin Amount",
+    "Current Open Amount",
+    "Current BackOrder Amount",
+    "Current Backlog Amount"
+FROM [lib://Consumer Goods (dvsts_demo)/AggSales.qvd]
+(qvd);
+
+Budget3:
+LOAD
+    DummyField,
+    BudgetInput2,
+    BudgetYear,
+    BudgetPeriod,
+    "Type",
+    "Budget Amount",
+    "Actual Amount",
+    BudKey,
+    BudgetInput
+FROM [lib://Consumer Goods (dvsts_demo)/Budget3.qvd]
+(qvd);
+
+BudgetPeriod:
+LOAD
+    BudgetPeriod,
+    textBudgetPeriod
+FROM [lib://Consumer Goods (dvsts_demo)/BudgetPeriod.qvd]
+(qvd);
+
+YTDBudget:
+LOAD
+    BudKey,
+    "YTD Budget Amount",
+    "TM Budget Amount"
+FROM [lib://Consumer Goods (dvsts_demo)/YTDBudget.qvd]
+(qvd);
+
+Division:
+LOAD
+    "Division Name",
+    Division
+FROM [lib://Consumer Goods (dvsts_demo)/Division.qvd]
+(qvd);
+
+FamilyClass:
+LOAD
+    "Family Class Desc",
+    "Family Class"
+FROM [lib://Consumer Goods (dvsts_demo)/FamilyClass.qvd]
+(qvd);
+///$tab Geo
+maptype:
+LOAD
+    maptype
+FROM [lib://Consumer Goods (dvsts_demo)/maptype.qvd]
+(qvd);
+
+Province:
+LOAD
+    State,
+    state_abbr,
+    state_name
+FROM [lib://Consumer Goods (dvsts_demo)/Province.qvd]
+(qvd);
+
+Regional:
+LOAD
+    "Regional Sales Mgr Name",
+    "Regional Sales Mgr"
+FROM [lib://Consumer Goods (dvsts_demo)/Regional.qvd]
+(qvd);
+
+Sheet1:
+LOAD
+    State,
+    Area
+FROM [lib://Consumer Goods (dvsts_demo)/Sheet1.qvd]
+(qvd);
+
+ShipToAddress2:
+LOAD
+    "Ship To",
+    "Ship To Customer Address 1",
+    "Ship To Customer Address 2",
+    "Ship To Customer Address 3",
+    "Ship To Customer Address 4",
+    "Ship To Zip Code",
+    "Ship To City",
+    "Ship To County",
+    "Ship To State",
+    "Ship To Country",
+    "Ship To Zip Code Short"
+FROM [lib://Consumer Goods (dvsts_demo)/ShipToAddress2.qvd]
+(qvd);
+
+ShipToMapCoordinates:
+LOAD
+    "Ship To State",
+    "Ship To X",
+    "Ship To Y"
+FROM [lib://Consumer Goods (dvsts_demo)/ShipToMapCoordinates.qvd]
+(qvd);
+
+ZipData:
+LOAD
+    "Ship To Zip Code Short",
+    latitude,
+    longitude,
+    QlikPoint
+FROM [lib://Consumer Goods (dvsts_demo)/ZipData.qvd]
+(qvd);
+
+///$tab Calendar
+DataDates2:
+LOAD
+    DateKey,
+    "Day",
+    "Month",
+    Quarter,
+    "Week",
+    "Week Ending Date",
+    "Weekday",
+    "Year",
+    YearMonth
+FROM [lib://Consumer Goods (dvsts_demo)/DataDates2.qvd]
+(qvd);
+
+FiscalRank:
+LOAD
+    Fiscal,
+    FiscalRank
+FROM [lib://Consumer Goods (dvsts_demo)/FiscalRank.qvd]
+(qvd);
+
+[Sheet1-1]:
+LOAD
+    Metric
+FROM [lib://Consumer Goods (dvsts_demo)/Sheet1-1.qvd]
+(qvd);
+
+
+
+
+//comment

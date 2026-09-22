@@ -1,0 +1,16 @@
+Definition: "400"
+Description: 
+IncludeInBookmark: false
+IsScript: false
+Name: map_size_y
+NumberPresentation:
+  qDec: 
+  qFmt: 
+  qnDec: 10
+  qThou: 
+  qType: U
+  qUseThou: 0
+QOpsVersion: 3.0.20
+Tags: 
+Type: variable
+...

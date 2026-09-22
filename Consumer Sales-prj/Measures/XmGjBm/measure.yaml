@@ -1,0 +1,23 @@
+Id: XmGjBm
+Name: 
+Properties:
+  qInfo:
+    qId: XmGjBm
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Count(distinct [Order Number])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Order Count
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Order Count
+QOpsVersion: 3.0.20
+...

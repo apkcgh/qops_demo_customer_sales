@@ -1,0 +1,23 @@
+Id: Setuf
+Name: 
+Properties:
+  qInfo:
+    qId: Setuf
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum ([Actual Amount])/Sum([Budget Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Budget %
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Budget %
+QOpsVersion: 3.0.20
+...

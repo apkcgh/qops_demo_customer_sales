@@ -1,0 +1,26 @@
+Children:
+- 819e12a7-e278-4732-a23c-e7f8ec747ad4
+Column: 4
+Height: 11
+Id: yuQn
+Properties:
+  disableNavMenu: false
+  footnote: ""
+  qChildListDef:
+    qData:
+      info: /qInfo
+  qInfo:
+    qId: yuQn
+    qType: filterpane
+  qMetaDef: {}
+  showDetails: false
+  showTitles: false
+  subtitle: ""
+  title: ""
+  visualization: filterpane
+QOpsVersion: 3.0.20
+Row: 2
+Title: ""
+Type: filterpane
+Width: 4
+...

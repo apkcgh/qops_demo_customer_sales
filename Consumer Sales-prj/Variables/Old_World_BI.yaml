@@ -1,0 +1,16 @@
+Definition: "1"
+Description: 
+IncludeInBookmark: false
+IsScript: false
+Name: Old_World_BI
+NumberPresentation:
+  qDec: 
+  qFmt: 
+  qnDec: 10
+  qThou: 
+  qType: U
+  qUseThou: 0
+QOpsVersion: 3.0.20
+Tags: 
+Type: variable
+...

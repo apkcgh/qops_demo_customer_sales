@@ -1,0 +1,23 @@
+Id: vDhvSum
+Name: 
+Properties:
+  qInfo:
+    qId: vDhvSum
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum ([Actual Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Actual Amount
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Actual Amount
+QOpsVersion: 3.0.20
+...

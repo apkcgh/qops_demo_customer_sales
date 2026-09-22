@@ -1,0 +1,25 @@
+Children:
+- LJXemsD
+Column: 0
+Height: 5
+Id: gGEvB
+Properties:
+  footnote: ""
+  qChildListDef:
+    qData:
+      info: /qInfo
+  qInfo:
+    qId: gGEvB
+    qType: filterpane
+  qMetaDef: {}
+  showDetails: false
+  showTitles: false
+  subtitle: ""
+  title: ""
+  visualization: filterpane
+QOpsVersion: 3.0.20
+Row: 8
+Title: ""
+Type: filterpane
+Width: 4
+...
