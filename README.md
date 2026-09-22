@@ -26,7 +26,13 @@ side you meant to keep — so both live in workflows, where which-one-ran is on 
 1. **Connect** — activate the licence, point QOps at the tenant
 2. **Build** — write the repository into the app
 3. **Reload** — reload its data, and wait for the result
-4. **Publish** — move it into the shared space
+4. **Publish** — promote it to a managed space
+
+Step 4 is off in this repository: the app already lives directly in the shared space `QOps-Demo`, so
+there is nothing to promote. Set the `QLIK_SPACE` variable and the step runs. Worth knowing before you
+do: publishing to a **managed** space creates a *new* application with a *new* id — the governed copy
+people open, while the repository keeps building the one it owns. That is the intended shape, not a
+surprise, but anything referring to the app by id needs to know which of the two it means.
 
 ## Drift, and why the morning run matters
 
@@ -35,6 +41,19 @@ captured. The Prepare workflow runs each weekday morning, and if the app no long
 repository it opens a pull request containing the difference. Merge it and the repository catches up.
 Close it and the next release overwrites the edit. Either is a decision someone made on purpose, which
 is the point.
+
+
+## Walk the demo in five minutes
+
+1. **Open [pull request #2](../../pull/2).** A master measure was labelled `Notheast Margin %` while its
+   sibling `Northeast Revenue` spelled the region correctly. The diff is two lines of YAML. Note that the
+   measure's own expression filters `Region Name = "Northeast"` — the expression was right and the label
+   was wrong, which is exactly the kind of thing nobody notices in a shared app.
+2. **Read it as code.** No Qlik knowledge is needed to review it. That is the point.
+3. **Merge it.** `Release to Qlik Cloud` runs: build, reload. A couple of minutes later the master item
+   in the app reads `Northeast Margin %`.
+4. **Then look at [the history of `Consumer Sales-prj/`](../../commits/main).** Every one of those 209
+   files came out of the app itself, written by the `Prepare` workflow — not by hand.
 
 ## Running it yourself
 
