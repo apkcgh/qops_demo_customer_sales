@@ -1,0 +1,9 @@
+AllBookmarks: false
+EOLStyle: LF
+Filter: id=2523e43c-5985-4ad3-aecf-4acf847e25f0
+IncludeBookmarks: false
+Profile: demo-cloud
+SerializationType: Yaml
+SkipExtensions: true
+UseBuildDiffs: false
+...

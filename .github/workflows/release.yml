@@ -1,0 +1,79 @@
+# git -> Qlik. Four steps, and any one of them failing stops the run: connect, build,
+# reload, publish. Nothing here is clever on purpose - this is the whole release.
+name: Release to Qlik Cloud
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**-prj/**'
+      - '.qopsconfig'
+      - '.github/workflows/release.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: qops-demo
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: connect -> build -> reload -> publish
+    runs-on: ${{ vars.QOPS_RUNNER || 'ubuntu-latest' }}
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install QOps
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $channel = '${{ vars.QOPS_CHANNEL }}'; if (-not $channel) { $channel = 'main-3.x' }
+          $dest = Join-Path $env:RUNNER_TEMP 'qops-hub'
+          git clone --quiet --depth 1 --branch $channel https://github.com/qops-hub/qops.git $dest
+          $platform = if ($IsWindows) { 'x64-net8.0' } else { 'linux-x64' }
+          $manifest = Join-Path $dest "$platform/QOpsModule/QOpsModule.psd1"
+          if (-not (Test-Path $manifest)) { throw "QOps manifest not found: $manifest" }
+          "QOPS_MANIFEST=$manifest" | Out-File $env:GITHUB_ENV -Append
+          $ch = Get-Content (Join-Path $dest 'channel.json') -Raw | ConvertFrom-Json
+          Write-Host "QOps $($ch.version) (channel $($ch.channel), built $($ch.built_utc))"
+
+      # 1/4
+      - name: Connect to Qlik Cloud
+        env:
+          QOPS_LICENSE: ${{ secrets.QOPS_LICENSE }}
+          QLIK_API_KEY: ${{ secrets.QLIK_API_KEY }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Import-Module $env:QOPS_MANIFEST -Force
+          QOps-SetLicense -Value $env:QOPS_LICENSE -Force
+          QOps-SetConfig -Profile demo-cloud -Mode QlikSaaS `
+                         -SenseURL '${{ vars.QLIK_TENANT }}' `
+                         -ApiKeyValue (ConvertTo-SecureString $env:QLIK_API_KEY -AsPlainText -Force)
+
+      # 2/4  the repository is the source of truth: this writes it into the app
+      - name: Build the app from the repository
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Import-Module $env:QOPS_MANIFEST -Force
+          QOps-Build
+          if ($LASTEXITCODE) { throw "QOps-Build exited $LASTEXITCODE" }
+
+      # 3/4
+      - name: Reload data
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Import-Module $env:QOPS_MANIFEST -Force
+          QOps-Reload -Wait -Timeout 900
+          if ($LASTEXITCODE) { throw "QOps-Reload exited $LASTEXITCODE" }
+
+      # 4/4  Publish needs all three fields in the filter and does NOT read .qopsconfig
+      - name: Publish to the shared space
+        if: ${{ vars.QLIK_SPACE != '' }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Import-Module $env:QOPS_MANIFEST -Force
+          $filter = "Id=${{ vars.QLIK_APP_ID }},Name=${{ vars.QLIK_APP_NAME }},Space=${{ vars.QLIK_SPACE }}"
+          Write-Host "Publishing with filter: $filter"
+          QOps-Publish -Filter $filter
+          if ($LASTEXITCODE) { throw "QOps-Publish exited $LASTEXITCODE" }

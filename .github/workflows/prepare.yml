@@ -1,0 +1,70 @@
+# Qlik -> git. Run this when somebody changed the app in Qlik and you want that change
+# in the repository. It writes files and opens a pull request; it changes nothing in Qlik.
+name: Prepare (Qlik to git)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1-5'   # weekday mornings: surface drift before anyone builds over it
+
+concurrency:
+  group: qops-demo
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prepare:
+    runs-on: ${{ vars.QOPS_RUNNER || 'ubuntu-latest' }}
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install QOps
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $channel = '${{ vars.QOPS_CHANNEL }}'; if (-not $channel) { $channel = 'main-3.x' }
+          $dest = Join-Path $env:RUNNER_TEMP 'qops-hub'
+          git clone --quiet --depth 1 --branch $channel https://github.com/qops-hub/qops.git $dest
+          $platform = if ($IsWindows) { 'x64-net8.0' } else { 'linux-x64' }
+          $manifest = Join-Path $dest "$platform/QOpsModule/QOpsModule.psd1"
+          if (-not (Test-Path $manifest)) { throw "QOps manifest not found: $manifest" }
+          "QOPS_MANIFEST=$manifest" | Out-File $env:GITHUB_ENV -Append
+          $ch = Get-Content (Join-Path $dest 'channel.json') -Raw | ConvertFrom-Json
+          Write-Host "QOps $($ch.version) (channel $($ch.channel), built $($ch.built_utc))"
+
+      - name: Connect to Qlik Cloud
+        env:
+          QOPS_LICENSE: ${{ secrets.QOPS_LICENSE }}
+          QLIK_API_KEY: ${{ secrets.QLIK_API_KEY }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Import-Module $env:QOPS_MANIFEST -Force
+          QOps-SetLicense -Value $env:QOPS_LICENSE -Force
+          QOps-SetConfig -Profile demo-cloud -Mode QlikSaaS `
+                         -SenseURL '${{ vars.QLIK_TENANT }}' `
+                         -ApiKeyValue (ConvertTo-SecureString $env:QLIK_API_KEY -AsPlainText -Force)
+
+      - name: Prepare (write the app into the repository)
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Import-Module $env:QOPS_MANIFEST -Force
+          QOps-Prepare -NoData
+          if ($LASTEXITCODE) { throw "QOps-Prepare exited $LASTEXITCODE" }
+
+      - name: Open a pull request if the app drifted
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: qops/prepare
+          title: 'Prepare: bring Qlik changes back into git'
+          commit-message: 'Prepare: serialize the app as it stands in Qlik'
+          body: |
+            Somebody changed the app in Qlik. This is that change, as text.
+
+            Review it the way you review code. Merging it makes the repository match
+            Qlik; closing it means the next release overwrites the change.
+          delete-branch: true

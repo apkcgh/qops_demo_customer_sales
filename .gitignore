@@ -1,0 +1,7 @@
+*.*shared
+*App.local.json
+AppHash.json
+*App.local.yaml
+AppHash.yaml
+Extensions/*.local.json
+Extensions/*.local.yaml
