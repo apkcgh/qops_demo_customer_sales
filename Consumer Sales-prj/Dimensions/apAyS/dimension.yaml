@@ -1,0 +1,22 @@
+Id: apAyS
+Name: 
+Properties:
+  qDim:
+    coloring:
+      changeHash: "0.335300512276709"
+    qFieldDefs:
+    - Channel Name
+    qFieldLabels:
+    - Channel Name
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Channel Name
+  qInfo:
+    qId: apAyS
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Channel Name
+QOpsVersion: 3.0.20
+...

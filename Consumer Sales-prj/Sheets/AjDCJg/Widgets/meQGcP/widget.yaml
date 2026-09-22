@@ -1,0 +1,212 @@
+Children: []
+Column: 12
+Height: 5
+Id: meQGcP
+Properties:
+  barGrouping:
+    grouping: grouped
+  color:
+    auto: false
+    dimensionScheme: "12"
+    expressionIsColor: true
+    measureScheme: sg
+    mode: byMultiple
+    persistent: false
+    reverseScheme: false
+    singleColor: 3
+  dataPoint:
+    show: false
+  dimensionAxis:
+    dock: near
+    label: auto
+    show: labels
+  footnote: ""
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  measureAxes:
+  - autoMinMax: true
+    dock: near
+    max: 10
+    min: 0
+    minMax: min
+    show: all
+    spacing: 1
+  - autoMinMax: true
+    dock: far
+    max: 10
+    min: 0
+    minMax: min
+    show: all
+    spacing: 1
+  nullMode: gap
+  orientation: vertical
+  qHyperCubeDef:
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: false
+        cId: cxtVVLU
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByLoadOrder: 1
+        title: Budget Period
+      qLibraryId: BXnM
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 500
+      qLeft: 0
+      qTop: 0
+      qWidth: 17
+    qInterColumnSortOrder:
+    - 0
+    - 1
+    - 2
+    qLayoutExclude: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: uekwjGD
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+        series:
+          axis: 0
+          marker: circle
+          markerFill: true
+          type: bar
+      qLibraryId: vDhvSum
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: feQA
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qFmt: 0%
+          qnDec: 2
+          qThou: ','
+          qType: F
+          qUseThou: 0
+        qTags: []
+        series:
+          axis: 1
+          marker: line
+          markerFill: true
+          type: marker
+      qLibraryId: Setuf
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: meQGcP
+    qType: combochart
+  qMetaDef: {}
+  showTitles: true
+  subtitle: ""
+  title: Actual vs Budget
+  visualization: combochart
+QOpsVersion: 3.0.20
+Row: 0
+Title: Actual vs Budget
+Type: combochart
+Width: 12
+...

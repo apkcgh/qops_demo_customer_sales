@@ -1,0 +1,23 @@
+Children:
+- 63d0b247-c72b-4db4-ac49-e79d8d1bdf76
+Id: pWVxu
+Name: 
+Properties:
+  footnote: ""
+  masterVersion: 0.96
+  metadata: {}
+  qChildListDef:
+    qData:
+      info: /qInfo
+  qInfo:
+    qId: pWVxu
+    qType: masterobject
+  qMetaDef:
+    tags: []
+    title: Filter by Sales Rep
+  showTitles: false
+  subtitle: ""
+  title: ""
+  visualization: filterpane
+QOpsVersion: 3.0.20
+...

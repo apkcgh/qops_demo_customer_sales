@@ -1,0 +1,16 @@
+Definition: =if(isnull(only(maptype)),fieldvalue( 'maptype', 1 ),maptype)
+Description: 
+IncludeInBookmark: false
+IsScript: false
+Name: var_maptype
+NumberPresentation:
+  qDec: 
+  qFmt: 
+  qnDec: 10
+  qThou: 
+  qType: U
+  qUseThou: 0
+QOpsVersion: 3.0.20
+Tags: 
+Type: variable
+...

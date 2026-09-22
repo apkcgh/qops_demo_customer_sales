@@ -1,0 +1,24 @@
+Children:
+- eZGUHP
+Column: 0
+Height: 7
+Id: BrUHXGz
+Properties:
+  footnote: ""
+  qChildListDef:
+    qData:
+      info: /qInfo
+  qInfo:
+    qId: BrUHXGz
+    qType: filterpane
+  qMetaDef: {}
+  showTitles: false
+  subtitle: ""
+  title: ""
+  visualization: filterpane
+QOpsVersion: 3.0.20
+Row: 0
+Title: ""
+Type: filterpane
+Width: 3
+...

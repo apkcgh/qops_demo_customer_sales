@@ -1,0 +1,26 @@
+QOpsVersion: 3.0.20
+Sheet:
+  Approved: false
+  Description: ""
+  Id: fa93a77d-d1ea-4628-8123-fa9ed5b2d983
+  Owner:
+    userDirectory: 
+    userId: 6a44ac0aae56b1960d12091f
+  Published: false
+  Title: Sales & Budget
+SheetProperties:
+  Id: fa93a77d-d1ea-4628-8123-fa9ed5b2d983
+  Properties:
+    columns: 24
+    qInfo:
+      qId: fa93a77d-d1ea-4628-8123-fa9ed5b2d983
+      qType: sheet
+    qMetaDef:
+      description: ""
+      title: Sales & Budget
+    rank: 2
+    rows: 12
+    thumbnail:
+      qStaticContentUrlDef:
+        qUrl: /api/v1/apps/_self/media/files/CGS_Sales_and_Budget.png
+...

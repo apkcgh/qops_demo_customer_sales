@@ -1,0 +1,23 @@
+Id: wVMwZT
+Name: 
+Properties:
+  qInfo:
+    qId: wVMwZT
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum({$ <[Region Name]={"Southern"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Southern"}> }[Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Southern Margin %
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Southern Margin %
+QOpsVersion: 3.0.20
+...

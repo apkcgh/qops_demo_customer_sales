@@ -1,0 +1,229 @@
+Children: []
+Column: 0
+Height: 5
+Id: ngAuD
+Properties:
+  color:
+    altLabel: jywRbn
+    auto: false
+    autoMinMax: true
+    byMeasureDef:
+      key: jywRbn
+      label: jywRbn
+      type: libraryItem
+    colorExpression: Count({$<Cust_Lost={"1"}>} distinct Customer)
+    dimensionId: ""
+    dimensionScheme: "12"
+    expressionIsColor: false
+    expressionLabel: ""
+    formatting:
+      numFormatFromTemplate: true
+      qNumFormat: 
+      quarantine:
+        isCustomFormatted: false
+        qNumFormat: {}
+    measureMax: 10
+    measureMin: 0
+    measureScheme: dc
+    mode: byMeasure
+    paletteColor:
+      index: 1
+    persistent: true
+    reverseScheme: true
+    singleColor: 3
+    useBaseColors: off
+    useDimColVal: true
+    useMeasureGradient: true
+  disableNavMenu: false
+  footnote: ""
+  labels:
+    auto: true
+    headers: false
+    leaves: false
+    overlay: true
+    values: false
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  qHyperCubeDef:
+    qAlwaysFullyExpanded: true
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: AGgAUE
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+      qLibraryId: apAyS
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - colorMapRef: jywRbn
+        id: colorByAlternative
+        matchMeasure: 0
+        qAttribute: true
+        qLibraryId: jywRbn
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: kQPDmu
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+      qLibraryId: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 3000
+      qLeft: 0
+      qTop: 0
+      qWidth: 30
+    qInterColumnSortOrder:
+    - 0
+    - 1
+    - 2
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 3000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - qAttribute: true
+        qExpression: Count({$<Cust_Lost={"1"}>} distinct Customer)
+        type: colorByExpression
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: mqHzpme
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: jywRbn
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: K
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: ngAuD
+    qType: treemap
+  qMetaDef: {}
+  showDetails: false
+  showDisclaimer: false
+  showTitles: true
+  subtitle: ""
+  title: Sales by Channel
+  tooltip:
+    auto: true
+    hideBasic: false
+  visualization: treemap
+QOpsVersion: 3.0.20
+Row: 13
+Title: Sales by Channel
+Type: treemap
+Width: 8
+...

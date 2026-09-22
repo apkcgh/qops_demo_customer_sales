@@ -1,0 +1,39 @@
+Children: []
+Id: 63d0b247-c72b-4db4-ac49-e79d8d1bdf76
+Name: 
+Properties:
+  footnote: ""
+  qInfo:
+    qId: 63d0b247-c72b-4db4-ac49-e79d8d1bdf76
+    qType: listbox
+  qListObjectDef:
+    qDef:
+      autoSort: false
+      cId: TQBKqcm
+      qActiveField: 0
+      qFieldDefs: []
+      qFieldLabels: []
+      qGrouping: N
+      qNumberPresentations: []
+      qSortCriterias:
+      - qExpression:
+          qv: =sum([Sales Amount])
+        qSortByAscii: 1
+        qSortByExpression: 1
+        qSortByLoadOrder: 1
+        qSortByNumeric: 1
+        qSortByState: 1
+      title: Sales Rep
+    qExpressions: []
+    qFrequencyMode: N
+    qInitialDataFetch: []
+    qLibraryId: UukqE
+    qOtherTotalSpec: {}
+    qShowAlternatives: true
+  qMetaDef: {}
+  showTitles: true
+  subtitle: ""
+  title: Sales Rep
+  visualization: listbox
+QOpsVersion: 3.0.20
+...

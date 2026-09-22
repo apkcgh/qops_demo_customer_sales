@@ -1,0 +1,24 @@
+Id: jywRbn
+Name: 
+Properties:
+  qInfo:
+    qId: jywRbn
+    qType: measure
+  qMeasure:
+    coloring: {}
+    qActiveExpression: 0
+    qDef: Sum([Sales Quantity])*Sum([Sales Price])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Sales
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Sales
+QOpsVersion: 3.0.20
+...

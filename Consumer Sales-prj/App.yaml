@@ -1,0 +1,17 @@
+Description: |+
+  See through the eyes of a consumer goods company.  Analyze sales data by sales rep, by region, by product, etc.
+
+Id: 2523e43c-5985-4ad3-aecf-4acf847e25f0
+Name: Consumer Sales
+Owner:
+  name: auth0|6d4ae9ad2f53937a91cb9ea2a4ff014146e9fe77b03250a4fb8d5ecf79c394a7
+  ownerId: 6a44ac0aae56b1960d12091f
+  userDirectory: 
+Properties: []
+Published: false
+QOpsVersion: 3.0.20
+ReleaseId: 
+Space: ""
+Stream: "" # Deprecated. Written only for backward compatibility with older QOps versions - use Space.
+ThumbnailUrl: /api/v1/apps/_self/media/files/consumer.png
+...

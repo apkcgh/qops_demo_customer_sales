@@ -1,0 +1,209 @@
+Children: []
+Column: 8
+Height: 9
+Id: RgRdrZ
+Properties:
+  components: []
+  disableNavMenu: false
+  footnote: ""
+  qHyperCubeDef:
+    columnOrder:
+    - 0
+    - 1
+    - 2
+    columnWidths:
+    - - 184
+    - - 344
+    qAlwaysFullyExpanded: true
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: zcfU
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+          qSortByNumeric: 1
+      qLibraryId: f2a6777e-8e09-438d-bd3e-3faa6b4bfeef
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel:
+        qv: Totals
+      title: Customer
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 50
+      qLeft: 0
+      qTop: 0
+      qWidth: 50
+    qInterColumnSortOrder:
+    - 0
+    - -1
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - qAttribute: true
+      - qAttribute: true
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: peGZLA
+        isCustomFormatted: false
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qFmt: '#,##0'
+          qnDec: 2
+          qThou: ','
+          qType: F
+          qUseThou: 0
+        qTags: []
+      qLibraryId: KJuWm
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - qAttribute: true
+      - qAttribute: true
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: CKLmp
+        isCustomFormatted: false
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qFmt: '#,##0'
+          qnDec: 2
+          qThou: ','
+          qType: F
+          qUseThou: 0
+        qTags: []
+      qLibraryId: JWjf
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: P
+    qNoOfLeftDims: 1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qShowTotalsAbove: true
+    qSortbyYValue: -1
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: RgRdrZ
+    qType: pivot-table
+  qLayoutExclude: {}
+  qMetaDef: {}
+  search:
+    sorting: auto
+  showDetails: false
+  showTitles: true
+  subtitle: ""
+  title: YOY Sales by Customer
+  visualization: pivot-table
+QOpsVersion: 3.0.20
+Row: 9
+Title: YOY Sales by Customer
+Type: pivot-table
+Width: 15
+...

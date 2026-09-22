@@ -1,0 +1,26 @@
+Children:
+- FPzF
+Column: 0
+Height: 6
+Id: xVrXacn
+Properties:
+  disableNavMenu: false
+  footnote: ""
+  qChildListDef:
+    qData:
+      info: /qInfo
+  qInfo:
+    qId: xVrXacn
+    qType: filterpane
+  qMetaDef: {}
+  showDetails: false
+  showTitles: false
+  subtitle: ""
+  title: ""
+  visualization: filterpane
+QOpsVersion: 3.0.20
+Row: 2
+Title: ""
+Type: filterpane
+Width: 4
+...

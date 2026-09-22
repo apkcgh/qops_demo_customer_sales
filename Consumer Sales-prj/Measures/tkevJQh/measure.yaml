@@ -1,0 +1,23 @@
+Id: tkevJQh
+Name: 
+Properties:
+  qInfo:
+    qId: tkevJQh
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Count(distinct Customer)
+    qExpressions: []
+    qGrouping: N
+    qLabel: Customer Count
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Customer Count
+QOpsVersion: 3.0.20
+...

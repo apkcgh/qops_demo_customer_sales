@@ -1,0 +1,24 @@
+Children:
+- aUqaY
+Column: 0
+Height: 5
+Id: erBqjrX
+Properties:
+  footnote: ""
+  qChildListDef:
+    qData:
+      info: /qInfo
+  qInfo:
+    qId: erBqjrX
+    qType: filterpane
+  qMetaDef: {}
+  showTitles: false
+  subtitle: ""
+  title: ""
+  visualization: filterpane
+QOpsVersion: 3.0.20
+Row: 7
+Title: ""
+Type: filterpane
+Width: 3
+...

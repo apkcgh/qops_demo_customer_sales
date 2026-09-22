@@ -1,0 +1,12 @@
+Id: cf1c9515-e0d5-40ab-a4e8-2d987c4a187d
+Properties:
+  Info:
+    Id: cf1c9515-e0d5-40ab-a4e8-2d987c4a187d
+    Session: 
+    Type: snapshot
+  MetaDef:
+    Session: 
+  Session: 
+QOpsVersion: 3.0.20
+ShouldProcess: true
+...

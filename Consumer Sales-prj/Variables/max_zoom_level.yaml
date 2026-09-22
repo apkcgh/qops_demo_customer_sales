@@ -1,0 +1,16 @@
+Definition: "9"
+Description: 
+IncludeInBookmark: false
+IsScript: false
+Name: max_zoom_level
+NumberPresentation:
+  qDec: 
+  qFmt: 
+  qnDec: 10
+  qThou: 
+  qType: U
+  qUseThou: 0
+QOpsVersion: 3.0.20
+Tags: 
+Type: variable
+...

@@ -1,0 +1,20 @@
+Id: mFFs
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Area
+    qFieldLabels:
+    - Area
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Area
+  qInfo:
+    qId: mFFs
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Area
+QOpsVersion: 3.0.20
+...

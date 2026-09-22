@@ -1,0 +1,24 @@
+Children: []
+Id: appprops
+Name: 
+Properties:
+  qInfo:
+    qId: appprops
+    qType: appprops
+  qMetaDef: {}
+  rtl: false
+  sheetLogoPosition: ""
+  sheetLogoThumbnail:
+    qStaticContentUrlDef:
+      qUrl: /api/v1/apps/_self/media/files/Qlik-Logo_WHITE.png
+  sheetTitleBgColor:
+    color: '#006580'
+    index: 6
+  sheetTitleColor: '#fffefc'
+  sheetTitleGradientColor:
+    color: '#006580'
+    index: 6
+  theme: horizon
+QOpsVersion: 3.0.20
+StateNames: []
+...

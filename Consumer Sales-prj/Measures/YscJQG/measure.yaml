@@ -1,0 +1,23 @@
+Id: YscJQG
+Name: 
+Properties:
+  qInfo:
+    qId: YscJQG
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Count({$<Cust_Lost={"1"}>} distinct Customer)
+    qExpressions: []
+    qGrouping: N
+    qLabel: Lost Customer Count
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Lost Customer Count
+QOpsVersion: 3.0.20
+...

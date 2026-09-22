@@ -1,0 +1,40 @@
+Children: []
+Column: 0
+Height: 0
+Id: LJXemsD
+Properties:
+  footnote: ""
+  qInfo:
+    qId: LJXemsD
+    qType: listbox
+  qListObjectDef:
+    qDef:
+      autoSort: false
+      cId: XGmJzq
+      qActiveField: 0
+      qFieldDefs: []
+      qFieldLabels: []
+      qGrouping: N
+      qNumberPresentations: []
+      qSortCriterias:
+      - qExpression: {}
+        qSortByAscii: 1
+        qSortByLoadOrder: 1
+      title: Region Name
+    qExpressions: []
+    qFrequencyMode: N
+    qInitialDataFetch: []
+    qLibraryId: 561fae5e-7cea-42a7-a742-b0bb7fe63d0b
+    qOtherTotalSpec: {}
+    qShowAlternatives: true
+  qMetaDef: {}
+  showTitles: true
+  subtitle: ""
+  title: Region
+  visualization: listbox
+QOpsVersion: 3.0.20
+Row: 0
+Title: Region
+Type: listbox
+Width: 0
+...

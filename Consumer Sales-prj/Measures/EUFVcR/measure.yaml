@@ -1,0 +1,23 @@
+Id: EUFVcR
+Name: 
+Properties:
+  qInfo:
+    qId: EUFVcR
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: (sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Sales Variance %
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Sales Variance %
+QOpsVersion: 3.0.20
+...

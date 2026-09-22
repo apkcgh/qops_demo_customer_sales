@@ -1,0 +1,242 @@
+Children: []
+Column: 8
+Height: 9
+Id: wmZEw
+Properties:
+  color:
+    auto: false
+    dimensionScheme: "12"
+    measureScheme: sg
+    mode: primary
+    paletteColor:
+      color: '#006580'
+      index: 6
+    persistent: false
+    reverseScheme: false
+    singleColor: '#4477aa'
+    useDimColVal: false
+    useMeasureGradient: false
+  compressionResolution: 5
+  dataPoint:
+    bubbleSizes: 5
+    rangeBubbleSizes:
+    - 2
+    - 8
+  footnote: ""
+  gridLine:
+    auto: true
+    spacing: 2
+  labels:
+    mode: 1
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  qHyperCubeDef:
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: eBdvnZ
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+          qSortByNumeric: 1
+      qLibraryId: e1432d2b-be66-4e9f-a134-65327550e346
+      qOtherLabel:
+        qv: Others
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 1000
+      qLeft: 0
+      qTop: 0
+      qWidth: 4
+    qInterColumnSortOrder:
+    - 2
+    - 1
+    - 0
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: vpTeLC
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qFmt: 0%
+          qnDec: 2
+          qThou: ','
+          qType: F
+          qUseThou: 0
+        qTags: []
+      qLibraryId: pHrfq
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: jrdTvp
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: jywRbn
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: wmZEw
+    qType: scatterplot
+  qLayoutExclude: {}
+  qMetaDef: {}
+  refLine:
+    refLinesX:
+    - $$hashKey: L7J
+      cId: SFmPUz
+      color: '#f93f17'
+      label: Margin Target
+      refLineExpr:
+        label: ".45"
+        value: 0.45
+      show: true
+    refLinesY: []
+  showTitles: true
+  subtitle: ""
+  title: Sales vs Margin by Product Group
+  visualization: scatterplot
+  xAxis:
+    autoMinMax: false
+    dock: bottom
+    label: auto
+    max: 10
+    min: 0
+    minMax: min
+    show: labels
+    spacing: 0.5
+  yAxis:
+    autoMinMax: false
+    dock: left
+    label: auto
+    max: 10
+    min: 0
+    minMax: min
+    show: labels
+    spacing: 0.5
+QOpsVersion: 3.0.20
+Row: 0
+Title: Sales vs Margin by Product Group
+Type: scatterplot
+Width: 15
+...

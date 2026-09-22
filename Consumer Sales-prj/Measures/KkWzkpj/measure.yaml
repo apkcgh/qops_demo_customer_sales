@@ -1,0 +1,23 @@
+Id: KkWzkpj
+Name: 
+Properties:
+  qInfo:
+    qId: KkWzkpj
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Count({$<Cust_New={"1"}>} distinct Customer)
+    qExpressions: []
+    qGrouping: N
+    qLabel: New Customer Count
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: New Customer Count
+QOpsVersion: 3.0.20
+...

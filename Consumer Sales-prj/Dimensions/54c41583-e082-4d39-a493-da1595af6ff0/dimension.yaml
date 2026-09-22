@@ -1,0 +1,23 @@
+Id: 54c41583-e082-4d39-a493-da1595af6ff0
+Name: 
+Properties:
+  qDim:
+    coloring:
+      changeHash: "0.4973294572459579"
+      colorMapRef: apAyS
+    qFieldDefs:
+    - Business Family Name
+    qFieldLabels:
+    - Business Family Name
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Business Family Name
+  qInfo:
+    qId: 54c41583-e082-4d39-a493-da1595af6ff0
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Business Family Name
+QOpsVersion: 3.0.20
+...

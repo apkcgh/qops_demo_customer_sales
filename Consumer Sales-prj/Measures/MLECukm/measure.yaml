@@ -1,0 +1,23 @@
+Id: MLECukm
+Name: 
+Properties:
+  qInfo:
+    qId: MLECukm
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: count(distinct If([Late Shipment] = 0 ,Shipments))/Count(Distinct Shipments)
+    qExpressions: []
+    qGrouping: N
+    qLabel: '% OnTime Shipments'
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: '% OnTime Shipments'
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,20 @@
+Id: JMtyDzJ
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - State
+    qFieldLabels:
+    - State
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: State
+  qInfo:
+    qId: JMtyDzJ
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: State
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,20 @@
+Id: AmMkUJQ
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - City
+    qFieldLabels:
+    - City
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: City
+  qInfo:
+    qId: AmMkUJQ
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: City
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,185 @@
+Children: []
+Column: 18
+Height: 6
+Id: WSPHg
+Properties:
+  color:
+    auto: false
+    dimensionScheme: "12"
+    measureScheme: sg
+    mode: primary
+    paletteColor:
+      color: '#eb9744'
+      index: -1
+    persistent: false
+    reverseScheme: false
+    singleColor: 7
+    useDimColVal: false
+    useMeasureGradient: false
+  dataPoint:
+    show: true
+    showLabels: true
+  dimensionAxis:
+    dock: bottom
+    label: auto
+    show: labels
+  footnote: ""
+  gridLine:
+    auto: true
+    spacing: 2
+  legend:
+    dock: auto
+    show: false
+    showTitle: true
+  lineType: line
+  measureAxis:
+    autoMinMax: true
+    dock: left
+    label: horizontal
+    max: 10
+    min: 0
+    minMax: min
+    show: labels
+    spacing: 1
+  nullMode: gap
+  qHyperCubeDef:
+    qAlwaysFullyExpanded: true
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: XJpFnmb
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+          qSortByNumeric: 1
+        title: Month
+      qLibraryId: KHvcSGE
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 500
+      qLeft: 0
+      qTop: 0
+      qWidth: 17
+    qInterColumnSortOrder:
+    - 0
+    - 1
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: XjcYjR
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qnDec: 10
+          qThou: " "
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: CGqTNpj
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: WSPHg
+    qType: linechart
+  qMetaDef: {}
+  refLine:
+    refLines: []
+  separateStacking: true
+  showTitles: true
+  stackedArea: false
+  subtitle: ""
+  title: Budget Over Time
+  visualization: linechart
+QOpsVersion: 3.0.20
+Row: 12
+Title: Budget Over Time
+Type: linechart
+Width: 18
+...

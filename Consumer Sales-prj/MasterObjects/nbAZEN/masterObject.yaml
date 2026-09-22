@@ -1,0 +1,129 @@
+Children: []
+Id: nbAZEN
+Name: 
+Properties:
+  footnote: ""
+  masterVersion: 0.96
+  metadata: {}
+  qHyperCubeDef:
+    columnOrder:
+    - 0
+    - 1
+    columnWidths:
+    - -1
+    - -1
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: AQZRMQ
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+          qSortByNumeric: 1
+        title: Sales Rep
+      qLibraryId: UukqE
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "9"
+        qOtherLimit: {}
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_ASCENDING
+        qReferencedExpression: {}
+        qSuppressOther: true
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch: []
+    qInterColumnSortOrder:
+    - 1
+    - 0
+    qLayoutExclude: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: false
+        cId: QbGJFae
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qFmt: 0.0%
+          qnDec: 2
+          qThou: ','
+          qType: F
+          qUseThou: 0
+        qTags: []
+      qLibraryId: HNMMUb
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: 1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: nbAZEN
+    qType: masterobject
+  qMetaDef:
+    tags: []
+    title: Sales Reps Sales Variance (TY vs LY)
+  showTitles: true
+  subtitle: ""
+  title: Sales Reps Sales Variance
+  totals:
+    position: noTotals
+    show: auto
+  visualization: table
+QOpsVersion: 3.0.20
+...

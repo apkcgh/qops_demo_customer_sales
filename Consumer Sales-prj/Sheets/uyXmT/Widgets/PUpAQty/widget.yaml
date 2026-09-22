@@ -1,0 +1,178 @@
+Children: []
+Column: 0
+Height: 6
+Id: PUpAQty
+Properties:
+  fontSize: L
+  footnote: ""
+  openUrlInNewTab: true
+  qHyperCubeDef:
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions: []
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 10
+      qLeft: 0
+      qTop: 0
+      qWidth: 500
+    qInterColumnSortOrder:
+    - 0
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 5000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: qJTK
+        conditionalColoring:
+          paletteSingleColor:
+            color: '#5ba2a5'
+            index: -1
+          segments:
+            limits: []
+            paletteColors:
+            - index: 6
+          singleColor: 3
+          useBaseColors: false
+          useConditionalColoring: false
+        isCustomFormatted: false
+        measureAxis:
+          max: 100
+          min: 0
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qDec: .
+          qFmt: 0%
+          qnDec: 2
+          qThou: ','
+          qType: F
+          qUseThou: 0
+        qTags: []
+      qLibraryId: qKJg
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: S
+    qNoOfLeftDims: -1
+    qPseudoDimPos: -1
+    qReductionMode: N
+    qSuppressMissing: true
+    qTitle: {}
+  qInfo:
+    qId: PUpAQty
+    qType: kpi
+  qLayoutExclude:
+    disabled:
+      extensionMeta:
+        author: Alexander Nerush
+        bundle:
+          description: This is a set of supported extensions that expands the visualization capabilities of Qlik Sense. These can be used in addition to the native objects found under 'Charts'. For support conditions and limitations, see the documentation.
+          id: qlik-visualization-bundle
+          name: Qlik Visualization bundle
+        dependencies:
+          qlik-sense: '>=5.5.x'
+        description: A tiled chart that shows one KPI per dimension value and measure.
+        homepage: ""
+        icon: kpi
+        iconChar: g
+        installer: QlikExtensionBundler
+        isLibraryItem: true
+        isThirdParty: true
+        keywords: qlik-sense, visualization
+        license: MIT
+        name: Multi KPI
+        preview: multikpi.png
+        previewIconURL: https://showcase.qlik.com/extensions/qlik-multi-kpi/multikpi.png
+        repository: ""
+        template: qlik-multi-kpi
+        translationKey: ""
+        type: visualization
+        version: 0.77.0
+        visible: true
+      options:
+        backgroundColor:
+          color: '#ffffff'
+          index: 0
+        dimCenteredLabels: true
+        dimDivideBy: auto
+        dimensionsOrientation: horizontal
+        dimHideBorders: false
+        dimHideInternalBorders: false
+        dimHideLabels: false
+        dimLabelOrientation: top attached
+        dimLabelSize: ""
+        dimShowAs: segment
+        divideBy: one
+        labelOrder: first
+        labelOrientation: ""
+        size: normal
+        styles: ""
+        verticalAlign: center-aligned-items
+      qExtendsId: ""
+      version: 1.4
+    quarantine: {}
+  qMetaDef: {}
+  sheetLink: ""
+  showDetails: false
+  showMeasureTitle: true
+  showTitles: false
+  subtitle: ""
+  textAlign: center
+  title: ""
+  useLink: false
+  visualization: kpi
+QOpsVersion: 3.0.20
+Row: 6
+Title: ""
+Type: kpi
+Width: 7
+...

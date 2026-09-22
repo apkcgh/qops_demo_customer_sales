@@ -1,0 +1,28 @@
+Id: qCJ
+Name: 
+Properties:
+  qInfo:
+    qId: qCJ
+    qType: measure
+  qMeasure:
+    coloring: {}
+    isCustomFormatted: false
+    qActiveExpression: 0
+    qDef: If(isnull([Sales Amount]),Null(),Sum([Sales Amount]))
+    qExpressions: []
+    qGrouping: N
+    qLabel: Total
+    qNumFormat:
+      qDec: .
+      qFmt: $#,##0;($#,##0)
+      qnDec: 2
+      qThou: ','
+      qType: M
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Total
+QOpsVersion: 3.0.20
+...

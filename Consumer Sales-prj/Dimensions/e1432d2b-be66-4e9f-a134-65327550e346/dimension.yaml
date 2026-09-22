@@ -1,0 +1,20 @@
+Id: e1432d2b-be66-4e9f-a134-65327550e346
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Product Sub Group Desc
+    qFieldLabels:
+    - Product Sub Group
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Product Sub Group
+  qInfo:
+    qId: e1432d2b-be66-4e9f-a134-65327550e346
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Product Sub Group
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,27 @@
+QOpsVersion: 3.0.20
+Sheet:
+  Approved: false
+  Description: ""
+  Id: undefined
+  Owner:
+    userDirectory: 
+    userId: 6a44ac0aae56b1960d12091f
+  Published: false
+  Title: Sales & Margin Performance
+SheetProperties:
+  Id: undefined
+  Properties:
+    columns: 24
+    gridResolution: small
+    qInfo:
+      qId: undefined
+      qType: sheet
+    qMetaDef:
+      description: ""
+      title: Sales & Margin Performance
+    rank: -0.9375
+    rows: 12
+    thumbnail:
+      qStaticContentUrlDef:
+        qUrl: /api/v1/apps/_self/media/files/CGS_Sales_and_Budget.png
+...

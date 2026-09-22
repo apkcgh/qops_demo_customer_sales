@@ -1,0 +1,23 @@
+Id: Pwma
+Name: 
+Properties:
+  qInfo:
+    qId: Pwma
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum({$ <[Region Name]={"Western"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Western"}> }[Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Western Margin %
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Western Margin %
+QOpsVersion: 3.0.20
+...

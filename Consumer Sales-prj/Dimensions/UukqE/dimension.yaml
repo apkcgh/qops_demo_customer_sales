@@ -1,0 +1,20 @@
+Id: UukqE
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Sales Rep Name
+    qFieldLabels:
+    - Sales Rep
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Sales Rep
+  qInfo:
+    qId: UukqE
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Sales Rep
+QOpsVersion: 3.0.20
+...

@@ -1,0 +1,21 @@
+Id: MJgXnN
+Name: 
+Properties:
+  isEditMode: true
+  qDim:
+    qFieldDefs:
+    - Metric
+    qFieldLabels:
+    - Color by Metric
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Color by Metric
+  qInfo:
+    qId: MJgXnN
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Color by Metric
+QOpsVersion: 3.0.20
+...

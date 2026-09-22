@@ -1,0 +1,23 @@
+Id: epqAX
+Name: 
+Properties:
+  qInfo:
+    qId: epqAX
+    qType: measure
+  qMeasure:
+    qActiveExpression: 0
+    qDef: Sum ([Sales Amount])
+    qExpressions: []
+    qGrouping: N
+    qLabel: Sales $
+    qNumFormat:
+      qnDec: 10
+      qType: U
+      qUseThou: 0
+    qOrigin: PROGRAM
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Sales $
+QOpsVersion: 3.0.20
+...

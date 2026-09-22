@@ -1,0 +1,36 @@
+Children: []
+Column: 0
+Height: 0
+Id: aUqaY
+Properties:
+  qInfo:
+    qId: aUqaY
+    qType: listbox
+  qListObjectDef:
+    qDef:
+      autoSort: true
+      qActiveField: 0
+      qFieldDefs: []
+      qFieldLabels: []
+      qGrouping: N
+      qNumberPresentations: []
+      qSortCriterias:
+      - qExpression: {}
+        qSortByAscii: 1
+        qSortByLoadOrder: 1
+        qSortByNumeric: 1
+        qSortByState: 1
+    qExpressions: []
+    qFrequencyMode: N
+    qInitialDataFetch: []
+    qLibraryId: AmMkUJQ
+    qShowAlternatives: true
+  qMetaDef: {}
+  title: City
+  visualization: listbox
+QOpsVersion: 3.0.20
+Row: 0
+Title: City
+Type: listbox
+Width: 0
+...

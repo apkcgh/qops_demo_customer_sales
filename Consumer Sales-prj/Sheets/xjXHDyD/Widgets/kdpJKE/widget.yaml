@@ -1,0 +1,213 @@
+Children: []
+Column: 16
+Height: 12
+Id: kdpJKE
+Properties:
+  color:
+    auto: false
+    colorExpression: Count({$<Cust_Lost={"1"}>} distinct Customer)
+    dimensionId: ""
+    dimensionScheme: "12"
+    expressionIsColor: false
+    expressionLabel: Customers Lost
+    measureScheme: dc
+    mode: byExpression
+    paletteColor:
+      color: '#4477aa'
+      index: -1
+    persistent: true
+    reverseScheme: false
+    singleColor: '#4477aa'
+    useDimColVal: false
+    useMeasureGradient: false
+  footnote: ""
+  labels:
+    auto: false
+    headers: false
+    leaves: true
+    overlay: true
+    values: false
+  legend:
+    dock: auto
+    showTitle: true
+  qHyperCubeDef:
+    qAlwaysFullyExpanded: true
+    qCalcCond: {}
+    qCalcCondition:
+      qCond: {}
+      qMsg: {}
+    qColumnOrder: []
+    qDimensions:
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: yGkVpyk
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+        title: Product Group
+      qLibraryId: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    - qAttributeDimensions: []
+      qAttributeExpressions: []
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: QDNKf
+        othersLabel: Others
+        qActiveField: 0
+        qFieldDefs: []
+        qFieldLabels: []
+        qGrouping: N
+        qNumberPresentations: []
+        qSortCriterias:
+        - qExpression: {}
+          qSortByAscii: 1
+          qSortByLoadOrder: 1
+        title: Sales Rep
+      qLibraryId: UukqE
+      qOtherLabel: {}
+      qOtherTotalSpec:
+        qApplyEvenWhenPossiblyWrongResult: true
+        qForceBadValueKeeping: true
+        qOtherCounted:
+          qv: "10"
+        qOtherLimit:
+          qv: "0"
+        qOtherLimitMode: OTHER_GE_LIMIT
+        qOtherMode: OTHER_OFF
+        qOtherSortMode: OTHER_SORT_DESCENDING
+        qReferencedExpression: {}
+        qTotalMode: TOTAL_OFF
+      qTotalLabel: {}
+    qDynamicScript: []
+    qExpansionState: []
+    qInitialDataFetch:
+    - qHeight: 3000
+      qLeft: 0
+      qTop: 0
+      qWidth: 30
+    qInterColumnSortOrder:
+    - 0
+    - 1
+    - 2
+    qLayoutExclude:
+      qHyperCubeDef:
+        qCalcCond: {}
+        qCalcCondition:
+          qCond: {}
+          qMsg: {}
+        qColumnOrder: []
+        qDimensions: []
+        qDynamicScript: []
+        qExpansionState: []
+        qInitialDataFetch: []
+        qInterColumnSortOrder: []
+        qMaxStackedCells: 5000
+        qMeasures: []
+        qMode: S
+        qNoOfLeftDims: -1
+        qPseudoDimPos: -1
+        qReductionMode: N
+        qTitle: {}
+    qMaxStackedCells: 3000
+    qMeasures:
+    - qAttributeDimensions: []
+      qAttributeExpressions:
+      - id: colorByExpression
+        label: Customers Lost
+        qAttribute: true
+        qExpression: Count({$<Cust_Lost={"1"}>} distinct Customer)
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+      qCalcCond: {}
+      qCalcCondition:
+        qCond: {}
+        qMsg: {}
+      qDef:
+        autoSort: true
+        cId: pZFXzc
+        numFormatFromTemplate: true
+        qAccumulate: 0
+        qActiveExpression: 0
+        qExpressions: []
+        qGrouping: N
+        qNumFormat:
+          qnDec: 10
+          qType: U
+          qUseThou: 0
+        qTags: []
+      qLibraryId: RcBYTz
+      qMiniChartDef:
+        qAttributeExpressions: []
+        qMaxNumberPoints: -1
+        qOtherTotalSpec:
+          qApplyEvenWhenPossiblyWrongResult: true
+          qForceBadValueKeeping: true
+          qOtherCounted: {}
+          qOtherLimit: {}
+          qOtherLimitMode: OTHER_GT_LIMIT
+          qOtherMode: OTHER_OFF
+          qOtherSortMode: OTHER_SORT_DESCENDING
+          qReferencedExpression: {}
+          qTotalMode: TOTAL_OFF
+        qSortBy:
+          qExpression: {}
+      qSortBy:
+        qExpression: {}
+        qSortByLoadOrder: 1
+        qSortByNumeric: -1
+      qTrendLines: []
+    qMode: K
+    qNoOfLeftDims: -1
+    qPseudoDimPos: 0
+    qReductionMode: N
+    qSuppressMissing: true
+    qSuppressZero: true
+    qTitle: {}
+  qInfo:
+    qId: kdpJKE
+    qType: treemap
+  qMetaDef: {}
+  showTitles: true
+  subtitle:
+    qStringExpression:
+      qExpr: "if (GetFieldSelections(Metric)='Number of Lost Customers', '*colored by # of lost customers', if(GetFieldSelections(Metric)='% Decrease in Customers', '*colored by # of decrease of customers','*colored by total budget expense'))"
+  title: Sales Quantity by Sales Rep
+  visualization: treemap
+QOpsVersion: 3.0.20
+Row: 0
+Title: Sales Quantity by Sales Rep
+Type: treemap
+Width: 8
+...

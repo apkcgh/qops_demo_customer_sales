@@ -1,0 +1,20 @@
+Id: KHvcSGE
+Name: 
+Properties:
+  qDim:
+    qFieldDefs:
+    - Month
+    qFieldLabels:
+    - Month
+    qGrouping: N
+    qOrigin: PROGRAM
+    title: Month
+  qInfo:
+    qId: KHvcSGE
+    qType: dimension
+  qMetaDef:
+    description: ""
+    tags: []
+    title: Month
+QOpsVersion: 3.0.20
+...

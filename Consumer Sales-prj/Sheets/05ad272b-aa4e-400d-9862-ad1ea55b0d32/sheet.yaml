@@ -1,0 +1,26 @@
+QOpsVersion: 3.0.20
+Sheet:
+  Approved: false
+  Description: ""
+  Id: 05ad272b-aa4e-400d-9862-ad1ea55b0d32
+  Owner:
+    userDirectory: 
+    userId: 6a44ac0aae56b1960d12091f
+  Published: false
+  Title: Customer Analysis Across Products & Sales Reps
+SheetProperties:
+  Id: 05ad272b-aa4e-400d-9862-ad1ea55b0d32
+  Properties:
+    columns: 24
+    qInfo:
+      qId: 05ad272b-aa4e-400d-9862-ad1ea55b0d32
+      qType: sheet
+    qMetaDef:
+      description: ""
+      title: Customer Analysis Across Products & Sales Reps
+    rank: 0.75
+    rows: 12
+    thumbnail:
+      qStaticContentUrlDef:
+        qUrl: /api/v1/apps/_self/media/files/CGS_Customer_Analysis.png
+...
