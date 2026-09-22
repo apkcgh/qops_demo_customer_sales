@@ -9,7 +9,7 @@ Properties:
     qDef: Sum({$ <[Region Name]={"Northeast"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Northeast"}> }[Sales Amount])
     qExpressions: []
     qGrouping: N
-    qLabel: Notheast Margin %
+    qLabel: Northeast Margin %
     qNumFormat:
       qnDec: 10
       qType: U
@@ -18,6 +18,6 @@ Properties:
   qMetaDef:
     description: ""
     tags: []
-    title: Notheast Margin %
+    title: Northeast Margin %
 QOpsVersion: 3.0.20
 ...
